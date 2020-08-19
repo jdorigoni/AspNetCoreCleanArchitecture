@@ -41,6 +41,7 @@ namespace CleanArch.Mvc
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseCookiePolicy();
 
             app.UseRouting();
 
